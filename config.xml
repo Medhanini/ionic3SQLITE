@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>mydatabase</name>
-    <description>An awesome Ionic/Cordova app.</description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
+<widget id="com.kaizen.pixel.sqlite" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>kaizen pixel SQLITE</name>
+    <description>An awesome Ionic/Cordova app from CRUD employees using SQLITE.</description>
+    <author email="mohamed.hanini95@gmail.com" href="https://github.com/Medhanini/ionic3SQLITE">Mohamed Hanini</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
+    <allow-intent href="tel:+212609889770" />
     <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
+    <allow-intent href="mailto:mohamed.hanini95@gmail.com" />
     <allow-intent href="geo:*" />
     <preference name="ScrollEnabled" value="false" />
     <preference name="android-minSdkVersion" value="19" />
@@ -82,4 +82,7 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^2.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
+    <plugin name="cordova-sqlite-storage" spec="^2.4.0" />
+    <plugin name="cordova-plugin-x-toast" spec="^2.7.0" />
+    <engine name="android" spec="^7.0.0" />
 </widget>

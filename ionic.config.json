@@ -1,5 +1,5 @@
 {
-  "name": "mydatabase",
+  "name": "com.kaizen.pixel.sqlite",
   "app_id": "",
   "type": "ionic-angular",
   "integrations": {
